@@ -31,7 +31,7 @@ const server = http.createServer((req, res) => {
         </head>
         <body>
             <h1>Hello from Jenkins + Docker!</h1>
-            <p> This was added using CI/CD Pipeline! </p>
+            <p> This was added using Jenkins CI/CD Pipeline! </p>
             <p>REST API Endpoint:</p>
             <a href="/status">/status</a>
         </body>
